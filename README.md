@@ -1,14 +1,10 @@
-# Simple Interest Calculator
+# This is the README.md file for the **github-final-project**
 
-A simple, open-source Bash shell script to calculate simple interest on financial loans and investments, developed for micro-finance initiatives.
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-## Features
-- Interactive user input for principal amount, interest rate, and duration.
-- Fast, straightforward terminal-based calculation.
-- Open-source under Apache License 2.0.
-
-## Usage
-Run the script using bash:
-```bash
-bash simple-interest.sh
-```
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r/100
